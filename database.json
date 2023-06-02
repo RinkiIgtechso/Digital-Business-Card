@@ -1,0 +1,33 @@
+{
+  "profile": [
+    {
+     "name": "James Hiddlestone",
+     "first_name": "James",
+     "last_name": "Hiddlestone",
+     "current_title": "Machine Learning Engineer",
+     "location": "San Francisco Bay Area",
+     "phone_number": 2589661849,
+     "personal_email": "xyz@email",
+     "linkedIn": "#",
+     "experience": [
+        {
+          "id":1,
+          "img":"/Images/edureka.jpg",
+          "title":"Senior Machine Learning Engineer at Google October"
+        },
+        {
+          "id":2,
+          "img":"/Images/spotify.png",
+          "title":"Junior Machine Learning Engineer at Spotify June"
+        }
+      ],
+     "education": [
+      {
+        "id":1,
+        "img":"/Images/stanford.png",
+        "title":"Stanford University, M.S., Computer Science October 2003"
+      }
+     ]
+    }
+   ]
+}

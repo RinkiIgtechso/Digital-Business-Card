@@ -10,12 +10,12 @@ window.React = React;
 
 
 function App() {
-  const [data, setData] = useState([]); 
+  const [data, setData] = useState([]);
 
   useEffect(()=>{
     axios.get('http://localhost:8000/profile')
     .then((res)=>setData(res.data))
-  },[])
+  },[data])
 
   return (
     <div className='app'>
